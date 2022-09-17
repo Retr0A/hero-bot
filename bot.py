@@ -56,4 +56,4 @@ async def on_message(message):
 
       await message.channel.send(embed=embed)
 
-client.run(os.getenv('DISCORD_TOKEN'))
+client.run(process.env.DISCORD_TOKEN)
